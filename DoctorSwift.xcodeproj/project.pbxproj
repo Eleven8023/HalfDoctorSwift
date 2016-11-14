@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31694DD1DD9538D009E5791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31694DC1DD9538D009E5791 /* AppDelegate.swift */; };
+		A31694DF1DD9538D009E5791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31694DE1DD9538D009E5791 /* ViewController.swift */; };
+		A31694E21DD9538D009E5791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31694E01DD9538D009E5791 /* Main.storyboard */; };
+		A31694E41DD9538D009E5791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31694E31DD9538D009E5791 /* Assets.xcassets */; };
+		A31694E71DD9538D009E5791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31694E51DD9538D009E5791 /* LaunchScreen.storyboard */; };
+		A31694F21DD9538D009E5791 /* DoctorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31694F11DD9538D009E5791 /* DoctorSwiftTests.swift */; };
+		A31694FD1DD9538D009E5791 /* DoctorSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31694FC1DD9538D009E5791 /* DoctorSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A31694EE1DD9538D009E5791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31694D11DD9538D009E5791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31694D81DD9538D009E5791;
+			remoteInfo = DoctorSwift;
+		};
+		A31694F91DD9538D009E5791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31694D11DD9538D009E5791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31694D81DD9538D009E5791;
+			remoteInfo = DoctorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A31694D91DD9538D009E5791 /* DoctorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31694DC1DD9538D009E5791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A31694DE1DD9538D009E5791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A31694E11DD9538D009E5791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31694E31DD9538D009E5791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31694E61DD9538D009E5791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31694E81DD9538D009E5791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31694ED1DD9538D009E5791 /* DoctorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31694F11DD9538D009E5791 /* DoctorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSwiftTests.swift; sourceTree = "<group>"; };
+		A31694F31DD9538D009E5791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31694F81DD9538D009E5791 /* DoctorSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31694FC1DD9538D009E5791 /* DoctorSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSwiftUITests.swift; sourceTree = "<group>"; };
+		A31694FE1DD9538D009E5791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31694D61DD9538D009E5791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31694EA1DD9538D009E5791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31694F51DD9538D009E5791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A31694D01DD9538D009E5791 = {
+			isa = PBXGroup;
+			children = (
+				A31694DB1DD9538D009E5791 /* DoctorSwift */,
+				A31694F01DD9538D009E5791 /* DoctorSwiftTests */,
+				A31694FB1DD9538D009E5791 /* DoctorSwiftUITests */,
+				A31694DA1DD9538D009E5791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A31694DA1DD9538D009E5791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31694D91DD9538D009E5791 /* DoctorSwift.app */,
+				A31694ED1DD9538D009E5791 /* DoctorSwiftTests.xctest */,
+				A31694F81DD9538D009E5791 /* DoctorSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31694DB1DD9538D009E5791 /* DoctorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A31694DC1DD9538D009E5791 /* AppDelegate.swift */,
+				A31694DE1DD9538D009E5791 /* ViewController.swift */,
+				A31694E01DD9538D009E5791 /* Main.storyboard */,
+				A31694E31DD9538D009E5791 /* Assets.xcassets */,
+				A31694E51DD9538D009E5791 /* LaunchScreen.storyboard */,
+				A31694E81DD9538D009E5791 /* Info.plist */,
+			);
+			path = DoctorSwift;
+			sourceTree = "<group>";
+		};
+		A31694F01DD9538D009E5791 /* DoctorSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A31694F11DD9538D009E5791 /* DoctorSwiftTests.swift */,
+				A31694F31DD9538D009E5791 /* Info.plist */,
+			);
+			path = DoctorSwiftTests;
+			sourceTree = "<group>";
+		};
+		A31694FB1DD9538D009E5791 /* DoctorSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A31694FC1DD9538D009E5791 /* DoctorSwiftUITests.swift */,
+				A31694FE1DD9538D009E5791 /* Info.plist */,
+			);
+			path = DoctorSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31694D81DD9538D009E5791 /* DoctorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31695011DD9538D009E5791 /* Build configuration list for PBXNativeTarget "DoctorSwift" */;
+			buildPhases = (
+				A31694D51DD9538D009E5791 /* Sources */,
+				A31694D61DD9538D009E5791 /* Frameworks */,
+				A31694D71DD9538D009E5791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorSwift;
+			productName = DoctorSwift;
+			productReference = A31694D91DD9538D009E5791 /* DoctorSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A31694EC1DD9538D009E5791 /* DoctorSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31695041DD9538D009E5791 /* Build configuration list for PBXNativeTarget "DoctorSwiftTests" */;
+			buildPhases = (
+				A31694E91DD9538D009E5791 /* Sources */,
+				A31694EA1DD9538D009E5791 /* Frameworks */,
+				A31694EB1DD9538D009E5791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31694EF1DD9538D009E5791 /* PBXTargetDependency */,
+			);
+			name = DoctorSwiftTests;
+			productName = DoctorSwiftTests;
+			productReference = A31694ED1DD9538D009E5791 /* DoctorSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A31694F71DD9538D009E5791 /* DoctorSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31695071DD9538D009E5791 /* Build configuration list for PBXNativeTarget "DoctorSwiftUITests" */;
+			buildPhases = (
+				A31694F41DD9538D009E5791 /* Sources */,
+				A31694F51DD9538D009E5791 /* Frameworks */,
+				A31694F61DD9538D009E5791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31694FA1DD9538D009E5791 /* PBXTargetDependency */,
+			);
+			name = DoctorSwiftUITests;
+			productName = DoctorSwiftUITests;
+			productReference = A31694F81DD9538D009E5791 /* DoctorSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31694D11DD9538D009E5791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Eleven;
+				TargetAttributes = {
+					A31694D81DD9538D009E5791 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A31694EC1DD9538D009E5791 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A31694D81DD9538D009E5791;
+					};
+					A31694F71DD9538D009E5791 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A31694D81DD9538D009E5791;
+					};
+				};
+			};
+			buildConfigurationList = A31694D41DD9538D009E5791 /* Build configuration list for PBXProject "DoctorSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31694D01DD9538D009E5791;
+			productRefGroup = A31694DA1DD9538D009E5791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31694D81DD9538D009E5791 /* DoctorSwift */,
+				A31694EC1DD9538D009E5791 /* DoctorSwiftTests */,
+				A31694F71DD9538D009E5791 /* DoctorSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31694D71DD9538D009E5791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31694E71DD9538D009E5791 /* LaunchScreen.storyboard in Resources */,
+				A31694E41DD9538D009E5791 /* Assets.xcassets in Resources */,
+				A31694E21DD9538D009E5791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31694EB1DD9538D009E5791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31694F61DD9538D009E5791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31694D51DD9538D009E5791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31694DF1DD9538D009E5791 /* ViewController.swift in Sources */,
+				A31694DD1DD9538D009E5791 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31694E91DD9538D009E5791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31694F21DD9538D009E5791 /* DoctorSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31694F41DD9538D009E5791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31694FD1DD9538D009E5791 /* DoctorSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A31694EF1DD9538D009E5791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31694D81DD9538D009E5791 /* DoctorSwift */;
+			targetProxy = A31694EE1DD9538D009E5791 /* PBXContainerItemProxy */;
+		};
+		A31694FA1DD9538D009E5791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31694D81DD9538D009E5791 /* DoctorSwift */;
+			targetProxy = A31694F91DD9538D009E5791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A31694E01DD9538D009E5791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31694E11DD9538D009E5791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31694E51DD9538D009E5791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31694E61DD9538D009E5791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31694FF1DD9538D009E5791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A31695001DD9538D009E5791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A31695021DD9538D009E5791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.DoctorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A31695031DD9538D009E5791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.DoctorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A31695051DD9538D009E5791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoctorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.DoctorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorSwift.app/DoctorSwift";
+			};
+			name = Debug;
+		};
+		A31695061DD9538D009E5791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoctorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.DoctorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorSwift.app/DoctorSwift";
+			};
+			name = Release;
+		};
+		A31695081DD9538D009E5791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DoctorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.DoctorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DoctorSwift;
+			};
+			name = Debug;
+		};
+		A31695091DD9538D009E5791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DoctorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.DoctorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DoctorSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31694D41DD9538D009E5791 /* Build configuration list for PBXProject "DoctorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31694FF1DD9538D009E5791 /* Debug */,
+				A31695001DD9538D009E5791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31695011DD9538D009E5791 /* Build configuration list for PBXNativeTarget "DoctorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31695021DD9538D009E5791 /* Debug */,
+				A31695031DD9538D009E5791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A31695041DD9538D009E5791 /* Build configuration list for PBXNativeTarget "DoctorSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31695051DD9538D009E5791 /* Debug */,
+				A31695061DD9538D009E5791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A31695071DD9538D009E5791 /* Build configuration list for PBXNativeTarget "DoctorSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31695081DD9538D009E5791 /* Debug */,
+				A31695091DD9538D009E5791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A31694D11DD9538D009E5791 /* Project object */;
+}
