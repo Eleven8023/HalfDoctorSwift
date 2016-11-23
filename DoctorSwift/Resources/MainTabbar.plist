@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ItemStyle</key>
+	<string></string>
+	<key>ItemHeight</key>
+	<integer>49</integer>
+	<key>ItemArr</key>
+	<array>
+		<dict>
+			<key>contollerName</key>
+			<string>MainSearchViewController</string>
+			<key>title</key>
+			<string>自查</string>
+			<key>backImage</key>
+			<string>searchNormal</string>
+			<key>selectedBackImage</key>
+			<string>searchSelected</string>
+		</dict>
+		<dict>
+			<key>contollerName</key>
+			<string>HabbitViewController</string>
+			<key>title</key>
+			<string>习惯</string>
+			<key>backImage</key>
+			<string>habitNormal</string>
+			<key>selectedBackImage</key>
+			<string>habitSelected</string>
+		</dict>
+		<dict>
+			<key>contollerName</key>
+			<string>NearByViewController</string>
+			<key>title</key>
+			<string>附近</string>
+			<key>backImage</key>
+			<string>nearbyNormal</string>
+			<key>selectedBackImage</key>
+			<string>nearbySelected</string>
+		</dict>
+		<dict>
+			<key>contollerName</key>
+			<string>MineViewController</string>
+			<key>title</key>
+			<string>我</string>
+			<key>backImage</key>
+			<string>mineNormal</string>
+			<key>selectedBackImage</key>
+			<string>mineSelected</string>
+		</dict>
+	</array>
+</dict>
+</plist>
